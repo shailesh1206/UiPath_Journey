@@ -88,12 +88,12 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog-Name" sap:VirtualizedContainerService.HintSize="354,279" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Enter your name" Title="Enter your name">
+    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog-Name" sap:VirtualizedContainerService.HintSize="354,279" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Enter your name" Title="Enter your name :">
       <ui:InputDialog.Result>
         <OutArgument x:TypeArguments="x:String">[str_Name]</OutArgument>
       </ui:InputDialog.Result>
     </ui:InputDialog>
-    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog-Age" sap:VirtualizedContainerService.HintSize="354,279" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="Enter your Age" Title="Enter your Age">
+    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog-Age" sap:VirtualizedContainerService.HintSize="354,279" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="Enter your Age" Title="Enter your Age :">
       <ui:InputDialog.Result>
         <OutArgument x:TypeArguments="x:String">[str_Age]</OutArgument>
       </ui:InputDialog.Result>
